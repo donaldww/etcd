@@ -1,7 +1,8 @@
 repo_name: donaldww/etcd
 report_id: 0f891a3c22d4a261687623cd96ba76ee
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:23:56+00:00'
+timestamp: '2024-01-04T15:02:36+00:00'
 requested_by: gyuho
 provider: github
 branch: master
@@ -17,6 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/donaldww/etcd
   detection_source: Repo Metadata
 - name: Jinja
   description: Full featured template engine for Python
@@ -27,6 +29,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/donaldww/etcd/blob/master/docs/requirements.txt
   detection_source: docs/requirements.txt
   last_updated_by: Gyuho Lee
   last_updated_on: 2018-06-14 19:56:09.000000000 Z
@@ -38,6 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Serialization Frameworks
   image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/donaldww/etcd/blob/master/go.mod
   detection_source: go.mod
   last_updated_by: Gyuho Lee
   last_updated_on: 2018-09-21 08:47:48.000000000 Z
@@ -50,6 +54,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Remote Procedure Call (RPC)
   image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/donaldww/etcd/blob/master/go.mod
   detection_source: go.mod
   last_updated_by: Gyuho Lee
   last_updated_on: 2018-09-21 08:47:48.000000000 Z
@@ -62,6 +67,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/donaldww/etcd
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -71,6 +77,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/donaldww/etcd
   detection_source: Repo Metadata
 - name: Grafana
   description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
@@ -81,6 +88,7 @@ tools:
   category: Monitoring
   sub_category: Monitoring Tools
   image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source_url: https://github.com/donaldww/etcd/blob/master/Documentation/op-guide/grafana.json
   detection_source: Documentation/op-guide/grafana.json
   last_updated_by: Frederic Branczyk
   last_updated_on: 2018-05-30 09:13:47.000000000 Z
@@ -94,6 +102,7 @@ tools:
   category: Monitoring
   sub_category: Monitoring Tools
   image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/donaldww/etcd/blob/master/go.mod
   detection_source: go.mod
   last_updated_by: Gyuho Lee
   last_updated_on: 2018-09-21 08:47:48.000000000 Z
@@ -107,6 +116,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Go Testing
   image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/donaldww/etcd/blob/master/go.mod
   detection_source: go.mod
   last_updated_by: Gyuho Lee
   last_updated_on: 2018-09-21 08:47:48.000000000 Z
@@ -119,6 +129,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/donaldww/etcd/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: Jonathan Boulle
   last_updated_on: 2014-09-09 22:44:41.000000000 Z
@@ -131,6 +142,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/5068/infinity-logo.png
+  detection_source_url: https://github.com/donaldww/etcd/blob/master/functional/Dockerfile
   detection_source: functional/Dockerfile
   last_updated_by: Gyuho Lee
   last_updated_on: 2018-03-22 09:36:46.000000000 Z
@@ -142,6 +154,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/donaldww/etcd
   detection_source: Repo Metadata
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
@@ -152,6 +165,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/donaldww/etcd
   detection_source: Repo Metadata
 - name: Ubuntu
   description: The leading OS for PC, tablet, phone and cloud
@@ -161,6 +175,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
-  detection_source: tests/docker-static-ip/Dockerfile
+  detection_source_url: https://github.com/donaldww/etcd/blob/master/tests/Dockerfile
+  detection_source: tests/Dockerfile
   last_updated_by: Gyuho Lee
   last_updated_on: 2018-07-05 17:07:11.000000000 Z
